@@ -1,4 +1,4 @@
-from .main import *
+from ps2 import *
 
 ## MAIN LOOP FUNCTIONS
 

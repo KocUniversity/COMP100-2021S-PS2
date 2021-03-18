@@ -1,4 +1,40 @@
 # COMP 100  -  PS2: Guess The Number!
+## Deadline: March, 28th at 11 pm
+
+### Important Note on Testing
+
+Your code includes a tester script `test_ps2.py` and a initialization file `__init__.py`. We will be using these to test the functions and grade your assignments, please DO NOT delete or modify those files!
+
+You can test your code without submitting to GitHub in the following way. Go to the Shell tab, and install pytest package first by typing the following command:
+
+`pip3 install pytest`
+
+This is a unit-test package which runs your functions one by one and compares them to the correct results defined in `test_ps2.py`. 
+
+You can execute the tests by typing the following command on the Shell:
+
+`pytest test_ps2.py`
+
+It will show you how many functions have failed and passed the test. Initially, you will have this output.
+
+```
+====================================== short test summary info =======================================
+FAILED test_ps2.py::test_set_level - NameError: name 'num_digits' is not defined
+FAILED test_ps2.py::test_generate_random_number - NameError: name 'n' is not defined
+FAILED test_ps2.py::test_get_ith_digit - NameError: name 'digit' is not defined
+FAILED test_ps2.py::test_get_empty_slots - NameError: name 'empty_slots' is not defined
+FAILED test_ps2.py::test_create_guess_str - NameError: name 'guess_str' is not defined
+FAILED test_ps2.py::test_init_guess_list - NameError: name 'l' is not defined
+FAILED test_ps2.py::test_all_digits_sum - NameError: name 'result' is not defined
+FAILED test_ps2.py::test_all_digits_mean - NameError: name 'result' is not defined
+FAILED test_ps2.py::test_is_factor - NameError: name 'result' is not defined
+FAILED test_ps2.py::test_calc_remainder - NameError: name 'result' is not defined
+FAILED test_ps2.py::test_is_larger - NameError: name 'result' is not defined
+FAILED test_ps2.py::test_two_digits_sum - NameError: name 'result' is not defined
+FAILED test_ps2.py::test_two_digits_mean - NameError: name 'result' is not defined
+FAILED test_ps2.py::test_two_digits_diff - NameError: name 'result' is not defined
+
+```
 
 ### Overview
 
